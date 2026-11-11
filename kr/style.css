@@ -57,7 +57,7 @@ body {
     width: 150px;
     margin: 0;
     padding: 12px;
-    font-family: 'Oswald', sa]];
+    font-family: 'Oswald';
     font-size: 120%;
 }
 
@@ -100,7 +100,7 @@ th, td {
 }
 
 th {
-    background-color: orange;
+    background-color: yellow;
     color: black;
 }
 
