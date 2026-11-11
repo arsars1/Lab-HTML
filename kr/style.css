@@ -1,1 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    font-family: 'Arial';
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.bl1, .bl2, .bl3, .bl4 {
+    position: absolute;
+    width: 24%;
+    height: 350px;
+    padding: 65px 15px 50px;
+}
+
+.bl1 {
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    color: black;
+}
+
+.bl2 {
+    top: 0;
+    left: 25%;
+    background-color: lightgreen;
+    color: black;
+}
+
+.bl3 {
+    top: 0;
+    left: 50%;
+    background-color: lightyellow;
+    color: black;
+}
+
+.bl4 {
+    top: 0;
+    left: 75%;
+    background-color: lightgray;
+    color: black;
+}
+
+.title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+    margin: 0;
+    padding: 12px;
+    font-family: 'Oswald', sa]];
+    font-size: 120%;
+}
+
+.bl1 .title {
+    background-color: blue;
+    color: white;
+}
+
+.bl2 .title {
+    background-color: green;
+    color: white;
+}
+
+.bl3 .title {
+    background-color: orange;
+    color: black;
+}
+
+.bl4 .title {
+    background-color: gray;
+    color: white;
+}
+
+.bl1 p, .bl2 li {
+    font-size: 16px;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Roboto Mono';
+    font-size: 13px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: orange;
+    color: black;
+}
+
+.bl4 img {
+    width: 320px;
+    height: 240px;
+    max-width: 100%;
+}
+
+a {
+    color: blue;
+}
 
