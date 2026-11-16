@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+p {
+    font-size: 120%;
+}
+
+.navigation {
+    width: 100%;
+    overflow: hidden;
+}
+
+.navigation a {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+#bio:link {
+    color: orange;
+}
+
+#bio:visited {
+    color: red;
+}
+
+#nowadays:link {
+    color: black;
+}
+
+#nowadays:visited {
+    color: brown;
+}
+
+#friends:link {
+    color: silver;
+}
+
+#friends:visited {
+    color: olive;
+}
+
+#gallery:link {
+    color: blue;
+}
+
+#gallery:visited {
+    color: green;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navigation a {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .navigation a {
+        width: 100%;
+    }
+}
